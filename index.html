@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://db.onlinewebfonts.com/c/1dc8ecd8056a5ea7aa7de1db42b5b639?family=Gilroy-Regular" rel="stylesheet">
+</head>
+<body>
+    <div id="main">
+        <h1>Text<span><img src="arrow.png" alt=""></span>Emoji</h1>
+       
+        <!-- <h1>Text<span> → </span> Emoji</h1> -->
+        <div id="endec-div">
+            <h3 id="enc-btn"><img src="tala.png" alt="">Encrypt Text</h3>
+            <h3 id="dec-btn"><img src="khulatala.png" alt="">Decrypt Emojis</h3>
+    </div>
+    <div id="encryption">
+        <h5>1.Type a message</h5>
+        <textarea placeholder="yaha pe msg likna hai" id="txtmsg" cols="30" rows="10"></textarea>
+        <h5>2. Set a password</h5>
+        <input placeholder="Kuch bhi daaldo lekin yaad rakhna " type="password" name="" id="password">
+        <h5>3. Encrypt message</h5>
+        <button id="encrypt-btn"><span><img src="tala.png" alt=""></span>Encrypt Text</button>
+    </div>
+    <div id="decryption">
+        <h5>1. Paste encrypted emojis</h5>
+        <textarea placeholder="yaha pe emojis daalde" id="emojimsg" cols="30" rows="10"></textarea>
+        <h5>2. Type a password</h5>
+        <input type="password" name="" id="finalpassword">
+        <h5>3. Decrypt Emojis</h5>
+        <button id="decrypt-btn"><span><img src="khulatala.png" alt=""></span>Decrypt</button>
+    </div>
+     <div id="result">
+        <!-- <button><span>copy</span></button> -->
+     </div>
+    </div>
+
+
+    <script src="script.js"></script>
+</body>
+</html>
